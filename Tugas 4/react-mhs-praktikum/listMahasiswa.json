@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "nim": 1941720173,
+      "nama": "Sesha Dwi Lestari",
+      "alamat": "Jl. Soekarno Hatta No. 9 Malang",
+      "hp": "081312345678",
+      "angkatan": 2019,
+      "status": "aktif"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
