@@ -1,0 +1,29 @@
+[debug] [2022-05-25T14:59:27.838Z] ----------------------------------------------------------------------
+[debug] [2022-05-25T14:59:27.839Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2022-05-25T14:59:27.839Z] CLI Version:   11.0.1
+[debug] [2022-05-25T14:59:27.839Z] Platform:      darwin
+[debug] [2022-05-25T14:59:27.839Z] Node Version:  v16.15.0
+[debug] [2022-05-25T14:59:27.839Z] Time:          Wed May 25 2022 21:59:27 GMT+0700 (Western Indonesia Time)
+[debug] [2022-05-25T14:59:27.840Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-25T14:59:27.867Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-25T14:59:27.867Z] > authorizing via signed-in user (1941720173@student.polinema.ac.id)
+[debug] [2022-05-25T14:59:27.867Z] [iam] checking project prak11-firebase-login for permissions ["firebase.projects.get"]
+[debug] [2022-05-25T14:59:27.868Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/prak11-firebase-login:testIamPermissions [none]
+[debug] [2022-05-25T14:59:27.868Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/prak11-firebase-login:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-05-25T14:59:28.936Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/prak11-firebase-login:testIamPermissions 200
+[debug] [2022-05-25T14:59:28.936Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/prak11-firebase-login:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-05-25T14:59:28.937Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/prak11-firebase-login [none]
+[debug] [2022-05-25T14:59:29.296Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/prak11-firebase-login 200
+[debug] [2022-05-25T14:59:29.296Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/prak11-firebase-login {"projectId":"prak11-firebase-login","projectNumber":"1002887371031","displayName":"prak11-firebase-login","name":"projects/prak11-firebase-login","resources":{"hostingSite":"prak11-firebase-login","storageBucket":"prak11-firebase-login.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+[info] === Serving from '/Users/seshadwi/Documents/SEMS 6/PEMROGRAMAN BASIS FRAMEWORK/Code/Code/Praktikum-PBF/Tugas 11'...
+[info] 
+[debug] [2022-05-25T14:59:29.298Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/prak11-firebase-login/sites 
+[debug] [2022-05-25T14:59:30.831Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/prak11-firebase-login/sites 200
+[debug] [2022-05-25T14:59:30.832Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/prak11-firebase-login/sites {"sites":[{"name":"projects/prak11-firebase-login/sites/prak11-firebase-login","defaultUrl":"https://prak11-firebase-login.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2022-05-25T14:59:30.832Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/prak11-firebase-login/webApps/-/config [none]
+[debug] [2022-05-25T14:59:32.110Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/prak11-firebase-login/webApps/-/config 200
+[debug] [2022-05-25T14:59:32.110Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/prak11-firebase-login/webApps/-/config {"projectId":"prak11-firebase-login","appId":"1:1002887371031:web:5ea13868b365663d263f52","storageBucket":"prak11-firebase-login.appspot.com","locationId":"us-central","apiKey":"AIzaSyAkuc7DW_oodmcIPOVrOP5WzLNU2MB6ARQ","authDomain":"prak11-firebase-login.firebaseapp.com","messagingSenderId":"1002887371031"}
+[info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] ✔  hosting: Local server: http://localhost:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5000\u001b[22m\u001b[24m"}}
